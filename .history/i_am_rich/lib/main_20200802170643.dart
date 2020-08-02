@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
-}
+} 
 
-class MyApp extends StatelessWidget {
+class MyApp extends  StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
+      home:Scaffold(
         appBar: AppBar(
           title: Text(
             "I Am Rich",
@@ -20,11 +20,11 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.blueGrey,
         body: Center(
           child: Image(
-            // the image to be displayed
+            // the 
             image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
     );
-  }
+  } 
 }
